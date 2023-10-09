@@ -1,7 +1,7 @@
-export default function Home() {
+export default function JavaScript() {
   return (
     <div className="min-h-screen p-2 bg-blue-400">
-      <div>foo</div>
+      <div>JavaScript</div>
     </div>
   );
 }
