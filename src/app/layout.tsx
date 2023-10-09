@@ -16,8 +16,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body className={inter.className}>
         <header className="flex justify-around my-3">
           <Link href="/">Home</Link>
-          <Link href="/javascript">JS/TS</Link>
-          <Link href="/react">React</Link>
+          <Link href="/todos">Todos</Link>
+          <Link href="/posts">Posts</Link>
           <Link href="/foo">404</Link>
         </header>
         <div className="bg-green-300 p-3">{children}</div>

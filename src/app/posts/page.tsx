@@ -1,7 +1,7 @@
-export default function React() {
+export default function Posts() {
   return (
     <div className="min-h-screen p-2 bg-blue-400">
-      <div>React</div>
+      <div>Posts</div>
     </div>
   );
 }
