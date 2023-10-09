@@ -1,7 +1,13 @@
+import Link from 'next/link';
+
 export default function Todos() {
   return (
-    <div className="min-h-screen p-2 bg-blue-400">
-      <div>Todos</div>
+    <div>
+      {Array.from({ length: 200 }, (_, i) => i + 1).map((i) => (
+        <div key={i}>
+          <Link href={`/todos/${i}`}>Todo {i}</Link>
+        </div>
+      ))}
     </div>
   );
 }
